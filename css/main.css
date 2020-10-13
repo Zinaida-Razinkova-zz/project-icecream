@@ -47,6 +47,8 @@ svg {
   margin-bottom: 15px;
   text-align: center;
   font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   color: #ffa5ba;
 }
@@ -77,6 +79,8 @@ svg {
   margin-top: 0px;
   text-align: center;
   font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   color: #d41443;
 }
@@ -274,6 +278,8 @@ svg {
   margin-bottom: 0px;
   text-align: center;
   font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #ffffff;
@@ -299,7 +305,7 @@ svg {
   .products-subtitle {
     padding-top: 163px;
     font-size: 30px;
-    line-height: 1.13;
+    line-height: 34px;
   }
 }
 
@@ -317,7 +323,8 @@ svg {
   .products-subparagraph {
     font-size: 14px;
     line-height: 1.52;
-    margin-bottom: 27px;
+    margin-top: 23px;
+    margin-bottom: 30px;
     margin-right: 41px;
     margin-left: 41px;
   }
