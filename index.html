@@ -25,55 +25,81 @@
     <main>
       <!-- Products -->
       <section class="products-section products-conteiner">
-        <p class="products-paragraf">100% NATURAL</p>
-        <h2 class="products-title">PRODUCTS</h2>
-        <ul class="products-in-the-cafe">
-          <li class="products-list products-icecreame">
-            <img
-              class="products-icecreame-img"
-              srcset="./images/home-pic1.png 1x, ./images/home-pic1@2x.png 2x"
-              src="./images/home-pic1.png"
-              alt="ice cream"
-            />
-            <h3 class="products-subtitle">ICE CREAM</h3>
-            <span class="products-ellipse">...</span>
-            <p class="products-subparagraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et
-            </p>
-            <button type="" class="products-button"></button>
-          </li>
-          <li class="products-list products-icecoffee">
-            <img
-              class="products-icecoffee-img"
-              srcset="./images/home-pic2.png 1x, ./images/home-pic2@2x.png 2x"
-              src="./images/home-pic2.png"
-              alt="ice coffee"
-            />
-            <h3 class="products-subtitle">ICE COFFEE</h3>
-            <span class="products-ellipse">...</span>
-            <p class="products-subparagraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et
-            </p>
-            <button type="" class="products-button"></button>
-          </li>
-          <li class="products-list products-milkschakes">
-            <img
-              class="products-milkschakes-img"
-              srcset="./images/home-pic3.png 1x, ./images/home-pic3@2x.png 2x"
-              src="./images/home-pic3.png"
-              alt="milkshakes"
-            />
-            <h3 class="products-subtitle">MILKSHAKES</h3>
-            <span class="products-ellipse">...</span>
-            <p class="products-subparagraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et
-            </p>
-            <button type="button" class="products-button"></button>
-          </li>
-        </ul>
+        <div class="container">
+          <p class="products-paragraf">100% NATURAL</p>
+          <h2 class="products-title">PRODUCTS</h2>
+          <ul class="products-in-the-cafe">
+            <li class="products-list products-icecreame">
+              <picture class="products-icecreame-img">
+                <source
+                  srcset="./images/pink-icecream.webp"
+                  type="image/webp"
+                />
+                <img
+                  srcset="
+                    ./images/pink-icecream-335.png 1x,
+                    ./images/pink-icecream-670.png 2x
+                  "
+                  src="./images/pink-icecream-335.png"
+                  alt="ice cream"
+                  width="335"
+                />
+              </picture>
+              <h3 class="products-subtitle">ICE CREAM</h3>
+              <span class="products-ellipse">...</span>
+              <p class="products-subparagraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et
+              </p>
+              <button type="button" class="products-button"></button>
+            </li>
+            <li class="products-list products-icecoffee">
+              <picture class="products-milkschakes-img">
+                <source srcset="./images/yellow-glass.webp" type="image/webp" />
+                <img
+                  srcset="
+                    ./images/yellow-glass-337.png 1x,
+                    ./images/yellow-glass-674.png 2x
+                  "
+                  src="./images/yellow-glass-337.png"
+                  alt="milkshakes"
+                  width="335"
+                />
+              </picture>
+              <h3 class="products-subtitle">ICE COFFEE</h3>
+              <span class="products-ellipse">...</span>
+              <p class="products-subparagraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et
+              </p>
+              <button type="button" class="products-button"></button>
+            </li>
+            <li class="products-list products-milkschakes">
+              <picture class="products-icecoffee-img">
+                <source
+                  srcset="./images/chocolate-icecream.webp"
+                  type="image/webp"
+                />
+                <img
+                  srcset="
+                    ./images/chocolate-icecream-335.png 1x,
+                    ./images/chocolate-icecream-670.png 2x
+                  "
+                  src="./images/chocolate-icecream-335.png"
+                  alt="ice coffee"
+                  width="335"
+                />
+              </picture>
+              <h3 class="products-subtitle">MILKSHAKES</h3>
+              <span class="products-ellipse">...</span>
+              <p class="products-subparagraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et
+              </p>
+              <button type="button" class="products-button"></button>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>
